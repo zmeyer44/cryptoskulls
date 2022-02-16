@@ -2,7 +2,7 @@
   --gap-horizontal: 5px;
   --gap-vertical: 10px;
   --time-anim: 2s;
-  --delay-anim: 2s;
+  --delay-anim: 0s;
   --glitch-width: 40vmax;
   --glitch-height: 40vmax;
 }
