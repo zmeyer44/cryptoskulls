@@ -20,9 +20,9 @@ const Header = () => {
       <div className="flex items-center">
         <div className="hidden sm:flex space-x-8 pr-4">
           <HeaderLink label="Discover" active />
-          <HeaderLink label="People" />
+          <HeaderLink label="History" />
+          <HeaderLink label="Merch" />
           <HeaderLink label="Learning" />
-          <HeaderLink label="Jobs" />
         </div>
         <button
           className={`menu ${menuOpen} z-20 sm:hidden`}
