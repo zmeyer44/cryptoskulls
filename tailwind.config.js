@@ -20,7 +20,7 @@ module.exports = {
         lightGray2: "#F5F5F8",
       },
       fontFamily: {
-        pixel: ["'Type Writer'", "monospace"],
+        pixel: ["'Type Writer'", "'Robot Crush'", "monospace"],
         crush: ["'Robot Crush'", "monospace"],
       },
       flexGrow: {

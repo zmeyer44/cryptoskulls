@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: Type Writer;
-  src: url(../fonts/type_writer.ttf) format("ttf");
+  src: url(../fonts/type_writer.ttf);
 }
 @font-face {
   font-family: Robot Crush;
