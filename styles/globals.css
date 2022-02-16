@@ -8,8 +8,8 @@
   }
 }
 @font-face {
-  font-family: "Type Writer";
-  src: local("Type Writer"), url(../fonts/type_writer.ttf) format("ttf");
+  font-family: Type Writer;
+  src: url(../fonts/type_writer.ttf) format("ttf");
 }
 @font-face {
   font-family: Robot Crush;
