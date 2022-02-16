@@ -39,10 +39,12 @@ const Header = () => {
           menuOpen && "translate-x-0"
         }`}
       >
-        <HeaderLink label="Discover" active large />
-        <HeaderLink label="People" large />
-        <HeaderLink label="Learning" large />
-        <HeaderLink label="Jobs" large />
+        <div className="center flex-col -mt-[72px]">
+          <HeaderLink label="Discover" active large />
+          <HeaderLink label="People" large />
+          <HeaderLink label="Learning" large />
+          <HeaderLink label="Jobs" large />
+        </div>
       </nav>
     </header>
   );
