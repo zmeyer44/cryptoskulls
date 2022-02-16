@@ -35,16 +35,14 @@ const Header = () => {
         </button>
       </div>
       <nav
-        className={`bg-white flex-col flex mt-[72px] h-screen w-screen fixed top-0 center space-y-7 sm:hidden transition-all translate-x-full ${
+        className={`bg-white flex-col flex mt-[72px] h-screen w-screen fixed top-0 items-center space-y-7 sm:hidden transition-all translate-x-full ${
           menuOpen && "translate-x-0"
         }`}
       >
-        <div className="center flex-col -mt-[72px]">
-          <HeaderLink label="Discover" active large />
-          <HeaderLink label="People" large />
-          <HeaderLink label="Learning" large />
-          <HeaderLink label="Jobs" large />
-        </div>
+        <HeaderLink label="Discover" active large />
+        <HeaderLink label="History" large />
+        <HeaderLink label="Learning" large />
+        <HeaderLink label="Merch" large />
       </nav>
     </header>
   );
