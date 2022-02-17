@@ -8,7 +8,7 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className="fixed top-0 bg-white w-full flex justify-around items-center py-4 shadow-lg z-50">
+    <header className="fixed top-0 bg-white w-full flex justify-between sm:justify-around items-center py-4 shadow-lg z-50">
       <div className="relative w-36 h-10 z-20">
         <Image
           src="/assets/images/headerlogo.png"
