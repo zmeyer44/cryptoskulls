@@ -1,6 +1,10 @@
 const ButtonWrapper = ({ type, href, children }) => {
   if (type == "anchor") {
-    return <a href={href}>{children}</a>;
+    return (
+      <a href={href} target="_blank">
+        {children}
+      </a>
+    );
   } else return children;
 };
 

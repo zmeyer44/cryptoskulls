@@ -35,10 +35,10 @@ export default function Home() {
                 href="https://opensea.io/collection/cryptoskulls"
               />
               <Button
-                label="rarible"
+                label="Discord"
                 secondary
                 type="anchor"
-                href="https://rarible.com/cryptoskulls-collection/items"
+                href="https://discord.gg/cryptoskulls"
               />
             </div>
           </div>
