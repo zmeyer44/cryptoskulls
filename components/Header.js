@@ -19,10 +19,10 @@ const Header = () => {
 
       <div className="flex items-center">
         <div className="hidden sm:flex space-x-8 pr-4">
-          <HeaderLink label="Discover" active />
-          <HeaderLink label="History" />
-          <HeaderLink label="Merch" />
-          <HeaderLink label="Learning" />
+          <HeaderLink label="Discover" href="/" />
+          <HeaderLink label="History" href="/history" />
+          <HeaderLink label="Merch" href="/merch" />
+          <HeaderLink label="Learning" href="/learning" />
         </div>
         <button
           className={`menu ${menuOpen} z-20 sm:hidden`}
@@ -39,10 +39,10 @@ const Header = () => {
           menuOpen && "translate-x-0"
         }`}
       >
-        <HeaderLink label="Discover" active large />
-        <HeaderLink label="History" large />
-        <HeaderLink label="Merch" large />
-        <HeaderLink label="Learning" large />
+        <HeaderLink label="Discover" href="/" large />
+        <HeaderLink label="History" href="/history" large />
+        <HeaderLink label="Merch" href="/merch" large />
+        <HeaderLink label="Learning" href="/learning" large />
       </nav>
     </header>
   );
