@@ -20,42 +20,99 @@ export default function History() {
         />
       </Head>
       <Layout>
-        <div className="flex grow w-full max-w-8xl pt-32 pb-24 relative flex-col md:flex-row mx-auto md:justify-center">
-          <div className="flex flex-col justify-center px-5 md:px-4 md:max-w-lg lg:mr-6">
-            <h3 className="text-accent font-crush tracking-wide text-[1.35em] mb-4 sm:text-[2em] sm:mb-9">
-              We Dig The Skulls
-            </h3>
-            <h1 className="font-pixel uppercase text-center -ml-16 md:ml-0 leading-[1.1em] text-[4rem] sm:text-[6em]">
-              Crypto <span className="ml-20 md:ml-0">Skulls</span>
+        <div className="bg-white w-full flex flex-col justify-center relative">
+          <div className="flex max-w-8xl flex-col py-16 px-4 w-full items-center mt-10 mb-16">
+            <h1 className="font-crush text-black text-[3em] lg:text-[4em] text-center tracking-wide mb-3 sm:mb-5">
+              The History of the Skulls
             </h1>
-            <div className="flex justify-center md:justify-end mt-6 lg:mt-10 space-x-5">
-              <Button
-                label="openSea"
-                type="anchor"
-                href="https://opensea.io/collection/cryptoskulls"
-              />
-              <Button
-                label="Discord"
-                secondary
-                type="anchor"
-                href="https://discord.gg/cryptoskulls"
-              />
-            </div>
-          </div>
-          <div className="flex grow mt-4 md:mt-0 justify-center md:max-w-xl">
-            <div className="relative w-full md:w-[400px] min-h-[300px]">
-              {/* <Image
-                src="/assets/images/skull.png"
-                layout="fill"
-                objectFit="contain"
-              /> */}
-              <div className="glitch glitch--style-2 w-44 h-44">
-                <div className="glitch__img"></div>
-                <div className="glitch__img"></div>
-                <div className="glitch__img"></div>
-                <div className="glitch__img"></div>
-                <div className="glitch__img"></div>
-              </div>
+            <div className="flex flex-col justify-center max-w-2xl w-full mt-2 md:mt-4 space-y-4 px-3">
+              <p className="text-slate-700  font-mono text-md md:text-lg">
+                Artist and Developer Alex Slayer created CryptoSkulls in May
+                2019. This was the second 10,000 supply generative PFP project,
+                following the groundbreaking 2017 project CryptoPunks. While
+                CryptoPunks was launched as a ERC-720 token, CryptoSkulls was
+                the first 10,000 supply PFP ERC-721 token.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                Each CryptoSkulls NFT has a varying array of traits, with some
+                being rarer than others. This range of attributes is called a
+                Uniqueness Index. On the Uniqueness Index, the smaller the
+                value, the rarer it is.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                Beyond the general supply of CryptoSkulls, the project’s
+                founding team also released 10 Skull Lords. These legendary-tier
+                NFTs were hand-drawn, assigned names, and endowed with a
+                Uniqueness Index of 1.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                It seems not all Skull Lords were created equal though, as most
+                (#9, #24, #27, #36, #41, #43 and #70) display static pixel
+                images, the art for CryptoSkull #19, CryptoSkull #20, and
+                CryptoSkull #42 links to short, animated YouTube videos complete
+                with music.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                Art and rarity aside, CryptoSkulls experienced a very slow
+                start. Considering the NFT market had yet to reach even a
+                fraction of the user numbers we’ve seen over the past year, a
+                decent supply of the collection was actually minted and held
+                within the official CryptoSkulls account itself. The
+                collection’s final mint didn’t take place till Aug. 2019, a few
+                months after the collection had launched and begun gaining a
+                following.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                In October 2020, CryptoSkulls revealed plans to intertwine the
+                project with a gamified experience called Gold of Skulls.
+                Alongside the game announcement also came the news that each
+                CryptoSkull NFT would be a playable token in Gold of Skulls —
+                which was originally planned for release in winter of 2021.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                To support game development, 1,000 CryptoSkulls were even
+                assigned the extra identifier of Game Token and said to have
+                extra features in the forthcoming game. And while Gold of Skulls
+                — which is billed as the “first game where the uniqueness of the
+                collectible token will affect the uniqueness of the player” —
+                has yet to be unveiled, the excitement surrounding the endeavor
+                seems to have increased.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                In conjunction with the Gold of Skulls game announcement, the
+                CryptoSkulls team also developed and launched a limited Gold of
+                Skulls ($GSK) ERC-20 standard coin with a total supply of
+                10,000,000. Currently, $GSK can still be purchased using
+                ShibaSwap.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                As of now, $GSK is tradeable and can be used as a payment token
+                to purchase CryptoSkulls NFTs from the official CryptoSkulls
+                account on OpenSea. Future applications of $GSK include in-game
+                rewards for the Gold of Skulls game, development grants, and
+                more.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                Overall, CryptoSkulls outshines numerous legacy projects because
+                it can arguably be considered the second-ever 10,000-supply PFP
+                collection on the Ethereum blockchain after CryptoPunks.
+                However, this accolade depends on one’s definition of a PFP
+                project as there are a couple of 10,000-supply gaming
+                collectible projects that precede it. In any case, the
+                rediscovery of an OG project at such a low price point is always
+                a cause for excitement in the space. This, paired with the fact
+                that the project developers are still actively trading
+                CryptoSkulls and developing Gold of Skulls, has helped trading
+                volume explode in 2022.
+              </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                While some may have believed CryptoSkulls would see increased
+                secondaries in the fall of 2021 as a spooky NFT to collect for
+                Halloween, on Jan. 11, sales started to seriously heat up as a
+                response to key figures including GaryVee, Steve Aoki, GMoney,
+                FVCKRENDER, ThankYouX, Matt Medved, Leonidas and many more aping
+                into the project.
+              </p>
             </div>
           </div>
 
@@ -77,66 +134,6 @@ export default function History() {
                 objectFit="contain"
                 alt=""
               />
-            </div>
-          </div>
-        </div>
-        <div className="bg-dark w-full flex flex-col justify-center">
-          <div className="flex max-w-8xl flex-col py-16 px-4 w-full items-center">
-            <h1 className="font-crush text-white text-[3em] text-center tracking-wide">
-              Welcome to Skull Nation
-            </h1>
-            <div className="w-full my-2 sm:mt-4 lg:mt-6 lg:mb-4 relative h-[200px] lg:h-[230px]">
-              <Image
-                src="/assets/images/skulllords.png"
-                layout="fill"
-                objectFit="contain"
-                alt="Skull Lords"
-              />
-            </div>
-            <div className="flex justify-center max-w-lg w-full">
-              <p className="text-slate-300 text-center font-mono text-md md:text-lg">
-                Skull Nation is lead by 10 Skull Lords, each are hand drawn and
-                extremly rare with a uniquness index of 1.
-              </p>
-            </div>
-          </div>
-          <div className="flex max-w-8xl flex-col py-16 px-4 items-center max-w-2xl lg:max-w-3xl mx-auto">
-            <h1 className="font-crush text-white text-[3em] text-center mb-6 tracking-wide">
-              Why We&apos;re <span className="text-red-700">Skullish</span>
-            </h1>
-            <div className="flex flex-col justify-center w-full space-y-5 px-3">
-              <div className="flex flex-col space-y-1">
-                <h4 className="font-crush text-xl sm:text-2xl text-white tracking-wide">
-                  Full Comercial Rights
-                </h4>
-                <p className="font-mono text-sm text-slate-300">
-                  CryptoSkulls owners have full commercial rights to the art in
-                  their owned wallets.
-                </p>
-              </div>
-              <div className="flex flex-col space-y-1">
-                <h4 className="font-crush text-xl sm:text-2xl text-white tracking-wide">
-                  Merchandising, Derivatives, and Commercial use
-                </h4>
-                <p className="font-mono text-sm text-slate-300">
-                  There are no monetary limits on earnings on merchandise,
-                  derivatives or other commercial uses.
-                </p>
-              </div>
-              <div className="flex flex-col space-y-1">
-                <h4 className="font-crush text-xl sm:text-2xl text-white tracking-wide">
-                  Copyright Transfer
-                </h4>
-                <p className="font-mono text-sm text-slate-300">
-                  It is our opinion that a blockchain transaction satisfies the
-                  legal requirement for copyright transfer. So copyright
-                  ownership of each individual image is adjudicated by the
-                  Ethereum/Polygon address for which the non-fungible token
-                  (NFT) of that image is assigned. Upon transfer or sale of the
-                  NFT to a new owner, the previous owner gives up all claims to
-                  the copyright.
-                </p>
-              </div>
             </div>
           </div>
         </div>
