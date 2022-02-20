@@ -102,7 +102,7 @@ export default function History() {
           </div>
           <div className="flex max-w-8xl flex-col py-16 px-4 items-center max-w-2xl lg:max-w-3xl mx-auto">
             <h1 className="font-crush text-white text-[3em] text-center mb-6 tracking-wide">
-              Why We\'re <span className="text-red-700">Skullish</span>
+              Why We&apos;re <span className="text-red-700">Skullish</span>
             </h1>
             <div className="flex flex-col justify-center w-full space-y-5 px-3">
               <div className="flex flex-col space-y-1">
