@@ -14,6 +14,7 @@ const Header = () => {
           src="/assets/images/headerlogo.png"
           layout="fill"
           objectFit="contain"
+          alt="cryptoskulls"
         />
       </div>
 

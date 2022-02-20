@@ -65,6 +65,7 @@ export default function History() {
                 src="/assets/images/pixels1red.png"
                 layout="fill"
                 objectFit="contain"
+                alt=""
               />
             </div>
           </div>
@@ -74,6 +75,7 @@ export default function History() {
                 src="/assets/images/pixels3red.png"
                 layout="fill"
                 objectFit="contain"
+                alt=""
               />
             </div>
           </div>
@@ -88,6 +90,7 @@ export default function History() {
                 src="/assets/images/skulllords.png"
                 layout="fill"
                 objectFit="contain"
+                alt="Skull Lords"
               />
             </div>
             <div className="flex justify-center max-w-lg w-full">

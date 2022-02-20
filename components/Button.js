@@ -1,7 +1,7 @@
 const ButtonWrapper = ({ type, href, children }) => {
   if (type == "anchor") {
     return (
-      <a href={href} target="_blank">
+      <a href={href} target="_blank" rel="noreferrer">
         {children}
       </a>
     );
