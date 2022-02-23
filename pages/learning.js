@@ -3,11 +3,11 @@ import Image from "next/image";
 import Layout from "../layout";
 import Button from "../components/Button";
 
-export default function Merch() {
+export default function Learning() {
   return (
     <>
       <Head>
-        <title>Crypto Skulls | Merch</title>
+        <title>Crypto Skulls | Learning</title>
         <meta name="description" content="Welcome to Skull Nation" />
         <link rel="icon" href="/favicon.ico" />
         <meta
