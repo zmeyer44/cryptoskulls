@@ -8,16 +8,7 @@ export default function Learning() {
     <>
       <Head>
         <title>Crypto Skulls | Learning</title>
-        <meta name="description" content="Welcome to Skull Nation" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/discovr-98d5c.appspot.com/o/images%2Fcryptoskullpreview.png?alt=media&token=e557a2c9-296c-4594-8fbf-4cbed695bbb4"
-        />
-        <meta
-          name="twitter:image"
-          content="https://firebasestorage.googleapis.com/v0/b/discovr-98d5c.appspot.com/o/images%2Fcryptoskullpreview.png?alt=media&token=e557a2c9-296c-4594-8fbf-4cbed695bbb4"
-        />
+        <meta name="description" content="Learn about Skull Nation" />
       </Head>
       <Layout>
         <div className="bg-white w-full flex flex-col justify-center relative grow">

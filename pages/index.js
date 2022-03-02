@@ -9,15 +9,6 @@ export default function Home() {
       <Head>
         <title>Crypto Skulls</title>
         <meta name="description" content="Welcome to Skull Nation" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/discovr-98d5c.appspot.com/o/images%2Fcryptoskullpreview.png?alt=media&token=e557a2c9-296c-4594-8fbf-4cbed695bbb4"
-        />
-        <meta
-          name="twitter:image"
-          content="https://firebasestorage.googleapis.com/v0/b/discovr-98d5c.appspot.com/o/images%2Fcryptoskullpreview.png?alt=media&token=e557a2c9-296c-4594-8fbf-4cbed695bbb4"
-        />
       </Head>
       <Layout>
         <div className="flex grow w-full max-w-8xl pt-32 pb-24 relative flex-col md:flex-row mx-auto md:justify-center">
