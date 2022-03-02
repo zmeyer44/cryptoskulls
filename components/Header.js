@@ -23,7 +23,10 @@ const Header = () => {
           <HeaderLink label="Discover" href="/" />
           <HeaderLink label="History" href="/history" />
           <HeaderLink label="Merch" href="/merch" />
-          <HeaderLink label="Learning" href="/learning" />
+          <HeaderLink
+            label="Skull Tracker"
+            href="https://www.skulltracker.app/"
+          />
         </div>
         <button
           className={`menu ${menuOpen} z-20 sm:hidden`}
@@ -43,7 +46,11 @@ const Header = () => {
         <HeaderLink label="Discover" href="/" large />
         <HeaderLink label="History" href="/history" large />
         <HeaderLink label="Merch" href="/merch" large />
-        <HeaderLink label="Learning" href="/learning" large />
+        <HeaderLink
+          label="Skull Tracker"
+          href="https://www.skulltracker.app/"
+          large
+        />
       </nav>
     </header>
   );
