@@ -104,6 +104,16 @@ export default function History() {
                 FVCKRENDER, ThankYouX, Matt Medved, Leonidas and many more aping
                 into the project.
               </p>
+              <p className="text-slate-700 font-mono text-md md:text-lg">
+                Source - LANGSTON THOMAS, January 11 2022,{" "}
+                <a
+                  href="https://nftnow.com/guides/cryptoskulls-nft-guide/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  nftnow.com
+                </a>
+              </p>
             </div>
           </div>
 
